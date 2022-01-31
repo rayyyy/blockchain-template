@@ -1,6 +1,6 @@
 # blockchain-template
 
-必要パッケージ
+node 環境に必要パッケージ
 
 - curl
 - gcc
@@ -8,3 +8,5 @@
 - make
 
 node はもしかしたら v10 が必要かもしれない
+
+※ganache は GUI にしたかったのでローカルに直接インストールした。
