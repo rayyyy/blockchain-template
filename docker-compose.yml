@@ -2,3 +2,9 @@ version: "3.7"
 services:
   parity:
     image: parity/parity
+
+  app:
+    build: .
+    tty: true
+    volumes:
+      - .:/app:cached
